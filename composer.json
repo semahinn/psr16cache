@@ -1,0 +1,19 @@
+{
+    "name": "snr/psr16cache",
+    "description": "some useful psr16cache (simple cache) implementations",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Snr\\Psr16cache\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikita Semakhin"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "psr/simple-cache": "^1.0"
+    }
+}
